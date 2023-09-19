@@ -1,0 +1,73 @@
+/* Estilos generales */
+body {
+  margin: 0;
+  padding: 0;
+}
+/* Mapa*/
+.mapa{
+  margin-top: 80px;
+  margin-bottom: 80px;
+  box-shadow: 5px 5px 50px #0b5410;
+
+}
+
+/* Pie de página */
+.pie-pagina {
+  background-color: #f5deb3; /* Color crema */
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Grupo 1: Imagen y Contacto */
+.grupo-1 {
+  display: flex;
+  align-items: center;
+  
+}
+
+.caja {
+  margin-right: 20px;
+}
+
+.caja img {
+  
+  max-width: 100px; /* Ajusta el tamaño de la imagen según tus necesidades */
+}
+
+.red-social a {
+  margin-right: 10px;
+  color: #333; /* Cambia el color de los iconos según tus necesidades */
+  text-decoration: none;
+}
+.pie-pagina .grupo-1 .red-social a:hover{
+  color: aqua;
+
+}  
+.pie-pagina .grupo-1 .red-social a{
+  display: inline-block;
+  text-decoration: none;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  color: blue;
+  margin-right: 10px;
+  background-color: #FCEFCF;
+  text-align: center;
+} 
+
+/* Grupo 2: Derechos Reservados */
+.grupo-2 {
+  text-align: center;
+  color: #000;
+}
+
+/* Estilos para el texto de los derechos reservados */
+.pie-pagina .grupo-2 small{
+  font-size: large;
+}
+  
+
+
+
