@@ -39,7 +39,7 @@ if (isset($_GET['idpublicaciones'])) {
           </div>
           <div class="col-md-6">
             <h2 class="text-black"><?php echo $fila['nombre'] ?></h2>
-            <p><?php echo $fila['descripcion'] ?></p>
+            <p class="text-justify" ><?php echo $fila['descripcion'] ?></p>
           </div>
         </div>
       </div>
