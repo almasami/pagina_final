@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Centenario</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mukta:300,400,700"> 
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    
+  </head>
+  <body>
+  
+  <div class="site-wrap">
+    <?php include("./layouts/header.php"); ?> 
+
+    <div class="site-section">
+      <div class="container">
+
+     
+    <h1>Convocatoria</h1>
+    <h2>Primera Convocatoria</h2>
+    <iframe src="docs/Primera_Convocatoria.pdf" type="application/pdf" 
+    width="100%" height="630px"></iframe>   
+     <h2>Segunda Convocatoria</h2>
+     <iframe src="docs/SEGUNDA_CONVOCATORIA.pdf" type="application/pdf" 
+    width="100%" height="630px"></iframe>
+        
+    
+
+           
+    </div>
+    </div>
+ 
+
+  
+<?php include("./layouts/footer.php"); ?> 
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/aos.js"></script>
+
+<script src="js/main.js"></script>
+ 
+</body>
+</html>

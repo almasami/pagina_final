@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Agricultura</title>
+    <title>Presas</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -22,7 +22,7 @@
   </head>
   <body>
   
-  <div class="site-wrap">s
+  <div class="site-wrap">
     <?php include("./layouts/header.php"); ?> 
 
     <div class="site-section">
@@ -40,7 +40,7 @@
             <div class="row mb-5">
     <?php
     include('./php/conexion.php');
-    $resultado = $conexion->query("SELECT * FROM publicaciones WHERE tipo='AGRICULTURA' ORDER BY idpublicaciones DESC LIMIT 5") or die($conexion);
+    $resultado = $conexion->query("SELECT * FROM publicaciones WHERE tipo='presas' ORDER BY idpublicaciones DESC LIMIT 5") or die($conexion);
     while ($fila = mysqli_fetch_array($resultado)) {
         ?>
         <div class="col-12 mb-4" data-aos="fade-up">

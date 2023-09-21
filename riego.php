@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Agricultura</title>
+    <title>Riego</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -22,25 +22,22 @@
   </head>
   <body>
   
-  <div class="site-wrap">s
+  <div class="site-wrap">
     <?php include("./layouts/header.php"); ?> 
 
     <div class="site-section">
       <div class="container">
 
-        <div class="row mb-5">
-          <div class="col-md-9 order-2">
+    
+    
 
            
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="row mb-5">
+    </div>
+    </div>
+ 
     <?php
     include('./php/conexion.php');
-    $resultado = $conexion->query("SELECT * FROM publicaciones WHERE tipo='AGRICULTURA' ORDER BY idpublicaciones DESC LIMIT 5") or die($conexion);
+    $resultado = $conexion->query("SELECT * FROM publicaciones WHERE tipo='RIEGO' ORDER BY idpublicaciones DESC LIMIT 5") or die($conexion);
     while ($fila = mysqli_fetch_array($resultado)) {
         ?>
         <div class="col-12 mb-4" data-aos="fade-up">
@@ -80,17 +77,17 @@
 
     
   </div>
-  <?php include("./layouts/footer.php"); ?> 
+  
+<?php include("./layouts/footer.php"); ?> 
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/aos.js"></script>
 
-  <script src="js/jquery-3.3.1.min.js"></script>
-  <script src="js/jquery-ui.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/owl.carousel.min.js"></script>
-  <script src="js/jquery.magnific-popup.min.js"></script>
-  <script src="js/aos.js"></script>
-
-  <script src="js/main.js"></script>
-   
-  </body>
+<script src="js/main.js"></script>
+ 
+</body>
 </html>
