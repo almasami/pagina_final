@@ -34,9 +34,8 @@
            
     </div>
     </div>
-    <?php
-    include('./php/conexion.php');
-    $resultado = $conexion->query("SELECT * FROM publicaciones WHERE tipo='PRODUCCION_RIEGO' ORDER BY idpublicaciones DESC LIMIT 5") or die($conexion);
+    <?php include('./php/conexion.php');
+    $resultado = $conexion->query("SELECT * FROM publicaciones WHERE tipo='produccion_riego' ORDER BY idpublicaciones DESC LIMIT 5") or die($conexion);
     while ($fila = mysqli_fetch_array($resultado)) {
         ?>
         <div class="col-12 mb-4" data-aos="fade-up">
