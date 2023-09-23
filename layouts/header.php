@@ -141,7 +141,7 @@
 		</li>
 		<li><a href="ganaderia.php">Ganadería</a>
 			<ul>
-				<li><a href="uso_comun">Uso Común</a></li>
+				<li><a href="uso_comun.php">Uso Común</a></li>
 				<li><a href="#">Producción</a></li>
 			</ul>
 		</li>
