@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Producción riego</title>
+    <title>Producción Ganadera</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -34,8 +34,10 @@
            
     </div>
     </div>
-    <?php include('./php/conexion.php');
-    $resultado = $conexion->query("SELECT * FROM publicaciones WHERE tipo='produccion_riego' ORDER BY idpublicaciones DESC LIMIT 5") or die($conexion);
+ 
+    <?php
+    include('./php/conexion.php');
+    $resultado = $conexion->query("SELECT * FROM publicaciones WHERE tipo='produccion_ganadera' ORDER BY idpublicaciones DESC LIMIT 5") or die($conexion);
     while ($fila = mysqli_fetch_array($resultado)) {
         ?>
         <div class="col-12 mb-4" data-aos="fade-up">
@@ -75,7 +77,6 @@
 
     
   </div>
-
   
 <?php include("./layouts/footer.php"); ?> 
 <script src="js/jquery-3.3.1.min.js"></script>

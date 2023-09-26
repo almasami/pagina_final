@@ -118,11 +118,11 @@
 			<div class="logo"><a href="indexprueba.php" class="nav-bar-logo"><img src="imagenes\hoja byn (2).png" ></a></div>
 			
 		
-		<li><a href="#">Centenario</a>
+		<li><a href="centenario.php">Centenario</a>
 			<ul>
-				<li><a href="#">Celebracion</a></li>
-				<li><a href="#">Dotaciones</a></li>
-				<li><a href="#">Ejidatarios</a></li>
+				<li><a href="celebracion.php">Celebración</a></li>
+				<li><a href="dotaciones.php">Dotaciones</a></li>
+				<li><a href="ejidatarios.php">Ejidatarios</a></li>
 			</ul>
 		</li>
 		<li><a href="comisariado.php">Comisariado</a>
@@ -134,15 +134,16 @@
 		<li><a href="agricultura.php">Agricultura</a>
 			<ul>
 				<li><a href="presas.php">Presas</a></li>
-				<li><a href="#">Producción</a></li>
-				<li><a href="#">Riego</a></li>
-				<li><a href="#">Temporal</a></li>
+				<li><a href="produccion_riego.php">Producción agrícola</a></li>
+				<li><a href="riego.php">Riego</a></li>
+				<li><a href="temporal.php">Temporal</a></li>
 			</ul>
 		</li>
 		<li><a href="ganaderia.php">Ganadería</a>
 			<ul>
+			<li><a href="produccion_ganaderia">Producción</a></li>
 				<li><a href="uso_comun.php">Uso Común</a></li>
-				<li><a href="#">Producción</a></li>
+				
 			</ul>
 		</li>
 		<li><a href="login.php">Login</a>
