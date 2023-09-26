@@ -115,9 +115,9 @@
 <div id="header">
 <nav class= "nav-bar">
 	<ul class="nav">
-  <div class= "container">
+  
 			<div class="logo"><a href="indexprueba.php" class="nav-bar-logo"><img src="imagenes\hoja byn (2).png" ></a></div>
-			</div>
+			
 		
 		<li><a href="centenario.php">Centenario</a>
 			<ul>
