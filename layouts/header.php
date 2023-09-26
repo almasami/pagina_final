@@ -93,6 +93,7 @@
   .nav-bar-logo img {
     height: 100px;   
     width:100px;
+	align-self: flex-start;
   }
 
 	.brand img{
@@ -114,9 +115,9 @@
 <div id="header">
 <nav class= "nav-bar">
 	<ul class="nav">
-  
+  <div class= "container">
 			<div class="logo"><a href="indexprueba.php" class="nav-bar-logo"><img src="imagenes\hoja byn (2).png" ></a></div>
-			
+			</div>
 		
 		<li><a href="centenario.php">Centenario</a>
 			<ul>
@@ -141,7 +142,7 @@
 		</li>
 		<li><a href="ganaderia.php">Ganadería</a>
 			<ul>
-			<li><a href="produccion_ganaderia">Producción</a></li>
+			<li><a href="produccion_ganadera">Producción ganadera</a></li>
 				<li><a href="uso_comun.php">Uso Común</a></li>
 				
 			</ul>
