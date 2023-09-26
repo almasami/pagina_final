@@ -93,7 +93,7 @@
   .nav-bar-logo img {
     height: 100px;   
     width:100px;
-	align-self: flex-end;
+	
   }
 
 	.brand img{
