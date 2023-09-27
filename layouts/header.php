@@ -88,7 +88,7 @@
 	.nav li ul li a:hover {
 		background-color: #FCEFCA;
 		
-		color: i#fff;
+		color: #fff;
 	}
   .nav-bar-logo img {
     height: 100px;   
