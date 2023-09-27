@@ -88,12 +88,12 @@
 	.nav li ul li a:hover {
 		background-color: #FCEFCA;
 		
-		color: #fff;
+		color: i#fff;
 	}
   .nav-bar-logo img {
     height: 100px;   
     width:100px;
-	
+	margin-left: 100%;
   }
 
 	.brand img{
