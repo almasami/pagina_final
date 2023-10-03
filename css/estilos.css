@@ -67,7 +67,13 @@ body {
 .pie-pagina .grupo-2 small{
   font-size: large;
 }
-  
+ .enlace-ran img{
+  width: 100px;
+
+ } 
+ .enlace-ran {
+  margin-top: 15px !important;
+ }
 
 
 

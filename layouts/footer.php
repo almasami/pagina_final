@@ -29,7 +29,8 @@
      </div>
      <div class="grupo-2">
         <small class="derechos">&copy; 2023 <b>Díaz</b> - Todos los Derechos Reservados.</small>
-
+        <br>
+      <div style="margin-top: 15px;" class="enlace-ran"><a href="https://www.gob.mx/ran"><img width= "100px"src="imagenes\ran.png"></a></div>
      </div>
                 
          

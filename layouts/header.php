@@ -32,7 +32,6 @@
 	.nav {
 		list-style: none;
 		display: flex;
-		justify-content: center;
 		background-color: #FCEFCF;
     z-index: 1000;
 	}
@@ -40,6 +39,8 @@
 	.nav li {
 		position: relative;
     z-index: 1000;
+	margin-top: auto;
+	margin-bottom: auto;
 	}
 
 	.nav li a {
@@ -56,7 +57,7 @@
 	.nav li a:hover {
 		background-color: #FCEFCA;
 
-		color: #fff;
+		color: #000;
 	}
 
 	.nav li ul {
@@ -88,18 +89,18 @@
 	.nav li ul li a:hover {
 		background-color: #FCEFCA;
 		
-		color: #fff;
+		color:#007bff;
 	}
   .nav-bar-logo img {
-    height: 100px;   
-    width:100px;
-	margin-left: 100%;
+    height: 60px;   
+    width:60px;
+	
   }
 
 	.brand img{
 		width: 175px;
 		height: 75px;
-		margin-left: 100%;
+		
 		line-height: 80px;
 	}
   .nav-bar{
@@ -108,18 +109,27 @@
 
     left: 0px;
   }
+  .last-element{
+	margin-right: 30px;
+
+
+  }
+  .first-element{
+	margin-left: auto;
+  }
 </style>
 <header>
 			
 
 <div id="header">
 <nav class= "nav-bar">
+
 	<ul class="nav">
-  
-			<div class="logo"><a href="indexprueba.php" class="nav-bar-logo"><img src="imagenes\hoja byn (2).png" ></a></div>
-			
+  <li>
+	<div class="logo"><a href="indexprueba.php" class="nav-bar-logo"><img src="imagenes\hoja byn (2).png" ></a></div>
+	</li>	
 		
-		<li><a href="centenario.php">Centenario</a>
+		<li class= "first-element"><a href="centenario.php" >Centenario</a>
 			<ul>
 				<li><a href="celebracion.php">Celebración</a></li>
 				<li><a href="dotaciones.php">Dotaciones</a></li>
@@ -147,7 +157,7 @@
 				
 			</ul>
 		</li>
-		<li><a href="login.php">Login</a>
+		<li class= "last-element"><a href="login.php">Login</a>
 	
 		</li>
 </nav>

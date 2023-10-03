@@ -11,7 +11,7 @@
             background-color: #f8f9fa;
         }
         h1 {
-            color: #343a40;
+            color: #fff;
             margin-bottom: 20px;
         }
         form {

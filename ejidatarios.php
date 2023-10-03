@@ -35,8 +35,8 @@
     </div>
     </div>
    
-    <?php
-    include('./php/conexion.php');
+  
+    <?php  include('./php/conexion.php');
     $resultado = $conexion->query("SELECT * FROM publicaciones WHERE tipo='EJIDATARIOS' ORDER BY idpublicaciones DESC LIMIT 5") or die($conexion);
     while ($fila = mysqli_fetch_array($resultado)) {
         ?>
