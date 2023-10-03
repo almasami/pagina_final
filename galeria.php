@@ -35,8 +35,10 @@
     while ($fila = mysqli_fetch_array($resultado)) {
         ?>
         <div class="col-12 mb-4" data-aos="fade-up">
-            <div class="block-4 text-center border">
-                <figure class="block-4-image">
+            <div class="block-4 text-center border <div class="row row-cols-1 row-cols-md-3">
+  <div class="col mb-4">
+    <div class="card h-100 text-black " style= "background-color: #E2F9F5">
+    <figure class="block-4-image card-img-top">
 
 <video   controls>
   <source src="<?php echo $fila['direcciones']; ?>" type="video/mp4">
@@ -45,6 +47,16 @@ Your browser does not support the video tag.
 </video>
                        
                 </figure>
+      <div class="card-body">
+        <h5 class="card-title"><?php echo $fila['titulo']; ?></h5>
+        <p class="card-text">"<?php echo $fila['descripcion']; ?>"</p>
+      </div>
+    </div>
+  </div>
+ 
+ 
+
+               
             </div>
         </div>
     <?php

@@ -157,7 +157,7 @@
 				
 			</ul>
 		</li>
-		<li class= "last-element"><a href="login.php">Login</a>
+		
 	
 		</li>
 </nav>

@@ -69,22 +69,27 @@
             <tbody>
                 <?php 
                 include "php/conexion.php";
-                $sentencia = "select * from publicaciones";
-                $resultado = $conexion->query($sentencia) or die (mysqli_error($conexion));
-                while ($fila = $resultado->fetch_assoc()) {
-                    echo "<tr>";
-                    echo "<td>" . $fila['idpublicaciones'] . "</td>";
-                    echo "<td>" . $fila['nombre'] . "</td>";
-                    echo "<td>" . $fila['descripcion'] . "</td>";
-                    echo "<td>" . $fila['tipo'] . "</td>";
-                    echo "<td><img src='" . $fila['imagen'] . "' width='100'></td>";
-                    echo "<td>
-                            <a href='modificar_publicaciones.php?idpublicaciones=" . $fila['idpublicaciones'] . "' class='btn btn-modify'>Modificar</a>
-                            <a href='eliminar_publicaciones.php?idpublicaciones=" . $fila['idpublicaciones'] . "' class='btn btn-delete'>Eliminar</a>
-                          </td>";
-                    echo "</tr>";
+               
+
+                function muestraTable(){ 
+                    include "php/conexion.php";
+                    $sentencia = "select * from publicaciones";
+                    $resultado = $conexion->query($sentencia) or die (mysqli_error($conexion));
+                    while ($fila = $resultado->fetch_assoc()) {
+                        echo "<tr>";
+                        echo "<td>" . $fila['idpublicaciones'] . "</td>";
+                        echo "<td>" . $fila['nombre'] . "</td>";
+                        echo "<td>" . $fila['descripcion'] . "</td>";
+                        echo "<td>" . $fila['tipo'] . "</td>";
+                        echo "<td><img src='" . $fila['imagen'] . "' width='100'></td>";
+                        echo "<td>
+                                <a href='modificar_publicaciones.php?idpublicaciones=" . $fila['idpublicaciones'] . "' class='btn btn-modify'>Modificar</a>
+                                <a href='eliminar_publicaciones.php?idpublicaciones=" . $fila['idpublicaciones'] . "' class='btn btn-delete'>Eliminar</a>
+                              </td>";
+                        echo "</tr>";
+                    }
                 }
-                ?>
+                muestraTable();                ?>
             </tbody>
         </table>
     </div>

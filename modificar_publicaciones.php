@@ -62,20 +62,20 @@ function ConsultarPublicacion($idpublicaciones)
                         <tr>
                             <td>
                                 <label>Nombre publicación: </label>
-                                <input type="text" id="producto" name="nombre" value="<?php echo $consulta[1] ?>"><br>
+                                <input type="text" id="producto" name="nombre" required value="<?php echo $consulta[1] ?>"><br>
                             </td>
                         </tr>
                         <tr>
                             <td>
                                 <label>Descripcion: </label>
-                                <input type="text" id="producto" name="descripcion"
+                                <input type="text" id="producto" required name="descripcion"
                                     value="<?php echo $consulta[2] ?>"><br>
                             </td>
                         </tr>
                         <tr>
                             <td>
                                 <label>Imagen: </label>
-                                <input type="text" id="producto" name="imagen" value="<?php echo $consulta[3] ?>"><br>
+                                <input type="text" id="producto" name="imagen" required value="<?php echo $consulta[3] ?>"><br>
                             </td>
                         </tr>
                         <tr>
