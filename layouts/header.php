@@ -157,6 +157,13 @@
 				
 			</ul>
 		</li>
+		<li><a href="#">Otros</a>
+			<ul>
+			<li><a href="galeria.php">Galería</a></li>
+				<li><a href="mapa.php">Encuentranos</a></li>
+				
+			</ul>
+		</li>
 		
 	
 		</li>
