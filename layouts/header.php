@@ -128,7 +128,13 @@
   <li>
 	<div class="logo"><a href="indexprueba.php" class="nav-bar-logo"><img src="imagenes\hoja byn (2).png" ></a></div>
 	</li>	
-		
+	<li><a href="#">Ejido</a>
+			<ul>
+			<li><a href="mapa.php">Encuéntranos</a></li>
+				<li><a href="galeria.php">Galería</a></li>
+				
+			</ul>
+		</li>
 		<li class= "first-element"><a href="centenario.php" >Centenario</a>
 			<ul>
 				<li><a href="celebracion.php">Celebración</a></li>
@@ -157,13 +163,7 @@
 				
 			</ul>
 		</li>
-		<li><a href="#">Otros</a>
-			<ul>
-			<li><a href="galeria.php">Galería</a></li>
-				<li><a href="mapa.php">Encuentranos</a></li>
-				
-			</ul>
-		</li>
+		
 		
 	
 		</li>

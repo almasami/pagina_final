@@ -31,10 +31,10 @@
             <thead>
                 <tr>
                     
-                    <th>Nombre Presidente</th>
-                    <th>Nombre Secretario</th>
-                    <th>Nombre Tesorero</th>
-                    <th>Nombre Vigilancia</th>
+                    <th>Presidente</th>
+                    <th>Secretario</th>
+                    <th>Tesorero</th>
+                    <th>Vigilancia</th>
                     <th>Inicio</th>
                     <th>Fin</th>
                 
