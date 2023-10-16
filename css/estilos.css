@@ -10,15 +10,20 @@ body {
   box-shadow: 5px 5px 50px #0b5410;
 
 }
+/*tabla*/
+.tabla th{
+width: 10em;
+}
 /*Estilo de tabla*/
+
 .estilo-tabla{
   border-collapse: collapse;
-  margin: 25px 0;
+  margin: 25px 20;
   font-size: 1em;
   font-family: Arial, Helvetica, sans-serif;
   min-width: 500px;
   box-shadow: 0 0 20px #0b5410;
-  width: 100px;
+  width: 10em;
 }
 .estilo-tabla thead tr{
   background-color: #e2f9f5;
@@ -35,7 +40,7 @@ body {
   border-bottom: 1px solid #0b5410;
 
 }
-.estilo-tabla tbody tr :nth-of-type(even){
+.estilo-tabla tbody tr :nth-of-type(1)> th{
   background-color: #FCEFCF;
 }
 
