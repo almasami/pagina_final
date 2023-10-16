@@ -65,15 +65,7 @@
                 }
                 ?>
                
-  <tr>
-  <th>No.</th>
-    <th>Presidente</th>
-    <th>Secretario</th>
-    <th>Tesorero</th>
-    <th>Vigilancia</th>
-    <th>Inicio</th>
-    <th>Fin</th>
-  </tr>
+  
   <tr>
   <th>1</th>
     <td>Francisco Rojas</td>
