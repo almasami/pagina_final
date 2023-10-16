@@ -19,6 +19,8 @@
 
     <link rel="stylesheet" href="css/style.css">
     
+    <link rel="stylesheet" href="css/estilos.css">
+    
   </head>
   <body>
   
