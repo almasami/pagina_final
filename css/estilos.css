@@ -40,8 +40,8 @@ width: 10em;
   border-bottom: 1px solid #0b5410;
 
 }
-.estilo-tabla tbody tr :nth-of-type(1)> th{
-  background-color: #FCEFCF;
+.tr :nth-of-type(1)> th{
+  background-color: #0b5410;
 }
 
 /* Pie de página */
