@@ -37,7 +37,7 @@
                     <th>Secretario</th>
                     <th>Tesorero</th>
                     <th>Vigilancia</th>
-                    <th>Inicio</th>
+                    <th class= "inicio">Inicio</th>
                     <th>Fin</th>
                 
                     
@@ -74,7 +74,7 @@
     <td>Abdón Moreno</td>
     <td>Inocente Mejía</td>
     <td>Jesús María Chacón</td>
-    <td>1924</td>
+    <td class="1924">1924</td>
     <td></td>
   </tr>
   <tr>
@@ -83,7 +83,7 @@
     <td>Mariano López Olivas</td>
     <td>Ismael Flores Ávila</td>
     <td>Tomás Lucero Talamantes</td>
-    <td>1971</td>
+    <td class="1971">1971</td>
     <td></td>
   </tr>
   <tr>
@@ -92,7 +92,7 @@
     <td>Rafael Díaz Prado</td>
     <td>Salvador Baca</td>
     <td>Victoriano Mora</td>
-    <td>1992</td>
+    <td class="1992">1992</td>
     <td></td>
   </tr>
   <tr>
@@ -101,7 +101,7 @@
     <td>Marín Alonso Martínez Chávez</td>
     <td>José Luis Pérez Meléndez</td>
     <td>Gilberto Bañuelos González</td>
-    <td>1992</td>
+    <td class="1992">1992</td>
     <td>1995</td>
   </tr>
   <tr>
@@ -110,7 +110,7 @@
     <td></td>
     <td></td>
     <td></td>
-    <td>1996</td>
+    <td class="1996">1996</td>
     <td>1999</td>
   </tr>
   <tr>
@@ -119,7 +119,7 @@
     <td></td>
     <td></td>
     <td></td>
-    <td>1999</td>
+    <td class="1999">1999</td>
     <td>2002</td>
   </tr>
   <tr>
@@ -128,7 +128,7 @@
     <td>Isidro Meléndez Meléndez.</td>
     <td>Israel Rentería Heras</td>
     <td>Amadito Olvera Hernández</td>
-    <td>2002</td>
+    <td class= "2002">2002</td>
     <td>2005</td>
   </tr>
   <tr>
@@ -137,7 +137,7 @@
     <td>Rafael Díaz Prado</td>
     <td>Julián Ledezma</td>
     <td>Jesús Veloz Trejo</td>
-    <td>2005</td>
+    <td class= "2005">2005</td>
     <td>2008</td>
   </tr>
   <tr>
@@ -147,7 +147,7 @@
     <td>Javier Pérez Meléndez</td>
     <td>José Luis Pérez Ramírez</td>
     <td>Delfino Mora Villalba</td>
-    <td>2008</td>
+    <td class= "2008">2008</td>
     <td>2011</td>
 
   </tr>
@@ -157,7 +157,7 @@
     <td>Israel Rentería Heras</td>
     <td>Armando Rodríguez Guillén</td>
     <td>Juan Alberto López Escalante</td>
-    <td>2011</td>
+    <td class= "2011">2011</td>
     <td>2014</td>
   </tr>
   <tr>
@@ -166,7 +166,7 @@
     <td>Rubén Rodríguez Guillén</td>
     <td>Jorge Corona Guillén</td>
     <td>Benigno Mora Sánchez</td>
-    <td>2014</td>
+    <td class= "2014">2014</td>
     <td>2017</td>
   </tr>
   <tr>
@@ -175,7 +175,7 @@
     <td>José Corona Rentería</td>
     <td>Samuel López Quezada</td>
     <td>Felipe Rentería Heras</td>
-    <td>2017</td>
+    <td class="2017">2017</td>
     <td>2020</td>
   </tr>
   <tr>
@@ -184,7 +184,7 @@
     <td>José Fermín Villa Ortiz</td>
     <td>Miguel Ángel Amaya Mora</td>
     <td>Rubén López Escalante</td>
-    <td>2020</td>
+    <td class= "2020">2020</td>
     <td>2022</td>
   </tr>
   <tr>
@@ -193,7 +193,7 @@
     <td>José Fermín Villa Ortiz</td>
     <td>Miguel Ángel Amaya Mora</td>
     <td>Rubén López Escalante</td>
-    <td>2022</td>
+    <td class= "2022">2022</td>
     <td>2023</td>
 
   </tr>
@@ -203,7 +203,7 @@
     <td>Eduardo Martínez Rentería</td>
     <td>Isaí Daniel López Aldavaz</td>
     <td>Felipe Rentería Heras</td>
-    <td>2023</td>
+    <td class= "2023">2023</td>
     <td></td>
 
   </tr>
