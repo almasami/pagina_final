@@ -29,7 +29,7 @@
 <div class="container mt-5">
         <h1 class="text-center">Mesa Directiva</h1>
         
-        <table class="styled-table">
+        <table class="estilo-tabla">
             <thead>
                 <tr>
                     <th>No.</th>
