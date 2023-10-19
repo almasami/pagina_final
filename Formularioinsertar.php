@@ -56,7 +56,8 @@ if(isset($_POST['txtnombre'])) {
         </div>
         <div class="mb-3">
             <label class="form-label">Ingrese una descripción</label>
-            <input type="text" class="form-control" name="txtdescripcion" required>
+            <textarea type="text" class="form-control" name="txtdescripcion" required>
+</textarea>
         </div>
         <div class="mb-3">
             <label class="form-label">Ingrese una imagen</label>
@@ -65,10 +66,26 @@ if(isset($_POST['txtnombre'])) {
         <div class="mb-3">
             <label for="sel1">Seleccione el tipo de publicación:</label>
             <select class="form-control" id="sel1" name="txttipo">
-                <option>CENTENARIO</option>
-                <option>COMISARIADO</option>
-                <option>AGRICULTURA</option>
-                <option>GANADERÍA</option>
+                
+            <option value="CENTENARIO">CENTENARIO</option>
+                <option value="COMISARIADO">COMISARIADO</option>
+                <option value="AGRICULTURA">AGRICULTURA</option>
+                <option value="GANADERIA">GANADERÍA</option>
+                <option value="CELEBRACION">CELEBRACIÓN</option>
+                <option value="DOTACIONES" >DOTACIONES</option>
+                <option value="EJIDATARIOS">EJIDATARIOS</option>
+                <option value="CONVOCATORIA">CONVOCATORIA</option>
+                <option value="EJIDO">EJIDO</option>
+                <option value="ENCUENTRANOS">ENCUÉNTRANOS</option>
+                <option value="GALERIA">GALERÍA</option>
+                <option value="PRESAS">PRESAS</option>
+                <option value="PRODUCCIONAGRICOLA" >PRODUCCIÓN AGRÍCOLA</option>
+                <option value="PRODUCCIONGANADERA">PRODUCCIÓN GANADERA</option>
+                <option value="RIEGO">RIEGO</option>
+                <option value="TEMPORAL">TEMPORAL</option>
+                <option value="USOCOMUN">USO COMÚN</option>
+
+
             </select>
         </div>
         <button type="submit" class="btn btn-primary">Agregar Publicación</button>

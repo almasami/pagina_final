@@ -36,11 +36,11 @@
     </div>
     <?php
     include('./php/conexion.php');
-    $resultado = $conexion->query("SELECT * FROM publicaciones WHERE tipo='dotaciones' ORDER BY idpublicaciones DESC LIMIT 5") or die($conexion);
+    $resultado = $conexion->query("SELECT * FROM publicaciones WHERE tipo='DOTACIONES' ORDER BY idpublicaciones DESC LIMIT 5") or die($conexion);
     while ($fila = mysqli_fetch_array($resultado)) {
         ?>
         <div class="col-12 mb-4" data-aos="fade-up">
-            <div class="block-4 text-center border">
+           <div class="block-4 text-center border" style= "background-color: #E2F9F5">
                 <figure class="block-4-image">
                     <a href="descripcionpublicaciones.php?idpublicaciones=<?php echo $fila['idpublicaciones']; ?>">
                         <img src="<?php echo $fila['imagen']; ?>" width="250" height="250">
