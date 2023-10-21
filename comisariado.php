@@ -38,7 +38,7 @@
                     <th>Tesorero</th>
                     <th>Vigilancia</th>
                     <th class= "inicio">Inicio</th>
-                    <th>Fin</th>
+                    <th class= "fin">Fin</th>
                 
                     
                     
