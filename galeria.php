@@ -48,7 +48,7 @@ Your browser does not support the video tag.
                        
                 </figure>
       <div class="card-body">
-        <h5 class="card-title"><?php echo $fila['titulo']; ?></h5>
+        <h5 class="card-title"><?php echo $fila['nombre']; ?></h5>
         <p class="card-text">"<?php echo $fila['descripcion']; ?>"</p>
       </div>
     </div>
