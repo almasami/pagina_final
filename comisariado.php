@@ -75,7 +75,7 @@
     <td>Inocente Mejía</td>
     <td>Jesús María Chacón</td>
     <td class="inicio">1924</td>
-    <td></td>
+    <td class="fin"></td>
   </tr>
   <tr>
   <th>2</th>
@@ -84,7 +84,7 @@
     <td>Ismael Flores Ávila</td>
     <td>Tomás Lucero Talamantes</td>
     <td class="inicio">1971</td>
-    <td></td>
+    <td class="fin"></td>
   </tr>
   <tr>
   <th>3</th>
@@ -93,7 +93,7 @@
     <td>Salvador Baca</td>
     <td>Victoriano Mora</td>
     <td class="inicio">1992</td>
-    <td></td>
+    <td class="fin"></td>
   </tr>
   <tr>
   <th>4</th>
@@ -102,7 +102,7 @@
     <td>José Luis Pérez Meléndez</td>
     <td>Gilberto Bañuelos González</td>
     <td class="inicio">1992</td>
-    <td>1995</td>
+    <td class="fin">1995</td>
   </tr>
   <tr>
   <th>5</th>
@@ -111,7 +111,7 @@
     <td></td>
     <td></td>
     <td class="inicio">1996</td>
-    <td>1999</td>
+    <td class="fin">1999</td>
   </tr>
   <tr>
   <th>6</th>
@@ -120,7 +120,7 @@
     <td></td>
     <td></td>
     <td class="inicio">1999</td>
-    <td>2002</td>
+    <td class="fin">2002</td>
   </tr>
   <tr>
   <th>7</th>
@@ -129,7 +129,7 @@
     <td>Israel Rentería Heras</td>
     <td>Amadito Olvera Hernández</td>
     <td class= "inicio">2002</td>
-    <td>2005</td>
+    <td class="fin">2005</td>
   </tr>
   <tr>
   <th>8</th>
@@ -138,7 +138,7 @@
     <td>Julián Ledezma</td>
     <td>Jesús Veloz Trejo</td>
     <td class= "inicio">2005</td>
-    <td>2008</td>
+    <td class="fin">2008</td>
   </tr>
   <tr>
     
@@ -148,7 +148,7 @@
     <td>José Luis Pérez Ramírez</td>
     <td>Delfino Mora Villalba</td>
     <td class= "inicio">2008</td>
-    <td>2011</td>
+    <td class="fin">2011</td>
 
   </tr>
   <tr>
@@ -158,7 +158,7 @@
     <td>Armando Rodríguez Guillén</td>
     <td>Juan Alberto López Escalante</td>
     <td class= "inicio">2011</td>
-    <td>2014</td>
+    <td class="fin">2014</td>
   </tr>
   <tr>
   <th>11</th>
@@ -167,7 +167,7 @@
     <td>Jorge Corona Guillén</td>
     <td>Benigno Mora Sánchez</td>
     <td class= "inicio">2014</td>
-    <td>2017</td>
+    <td class="fin">2017</td>
   </tr>
   <tr>
   <th>12</th>
@@ -176,7 +176,7 @@
     <td>Samuel López Quezada</td>
     <td>Felipe Rentería Heras</td>
     <td class="inicio">2017</td>
-    <td>2020</td>
+    <td class="fin">2020</td>
   </tr>
   <tr>
   <th>13</th>
@@ -185,7 +185,7 @@
     <td>Miguel Ángel Amaya Mora</td>
     <td>Rubén López Escalante</td>
     <td class= "inicio">2020</td>
-    <td>2022</td>
+    <td class="fin">2022</td>
   </tr>
   <tr>
   <th>14</th>
@@ -194,7 +194,7 @@
     <td>Miguel Ángel Amaya Mora</td>
     <td>Rubén López Escalante</td>
     <td class= "inicio">2022</td>
-    <td>2023</td>
+    <td class="fin">2023</td>
 
   </tr>
   <tr>
@@ -204,7 +204,7 @@
     <td>Isaí Daniel López Aldavaz</td>
     <td>Felipe Rentería Heras</td>
     <td class= "inicio">2023</td>
-    <td></td>
+    <td class="fin"></td>
 
   </tr>
 
