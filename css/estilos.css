@@ -34,17 +34,23 @@ width: 10em;
   background-color: #e2f9f5;
 
 }
+.estilo-tabla .fin{
+  background-color: #FCEFCF;
+
+}
+
+
 .estilo-tabla th, 
 .estilo-tabla td{
   padding: 12px 15px;
 
 }
 .estilo-tabla tbody tr{
-  border-bottom: 1px solid #0b5410;
+  border-bottom: 1px solid #000;
 
 }
 .tr :nth-of-type(1)> th{
-  background-color: #0b5410;
+  background-color: #000;
 }
 
 /* Pie de página */
