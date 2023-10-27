@@ -60,7 +60,7 @@ if(isset($_POST['txtnombre'])) {
 </textarea>
         </div>
         <div class="mb-3">
-            <label class="form-label">Ingrese una imagen</label>
+            <label class="form-label">Ingrese una imagen o archivo</label>
             <input type="text" class="form-control" name="txtimagen" required>
         </div>
         <div class="mb-3">
