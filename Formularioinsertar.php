@@ -1,21 +1,38 @@
 <?php
 include("php/conexion.php");
-
+ 
 if(isset($_POST['txtnombre'])) {
     $nombre = $_POST['txtnombre'];
     $descripcion = $_POST['txtdescripcion'];
     $nombreimagen = $_POST['txtimagen'];
     $tipopublicacion = $_POST['txttipo'];
-
-    $sql = "INSERT INTO publicaciones (nombre, descripcion, imagen, tipo, idusuarios)
-            VALUES ('$nombre', '$descripcion', '$nombreimagen', '$tipopublicacion', 1)"; // Replace '1' with actual user ID
-
-    if(mysqli_query($conexion, $sql)) {
+ 
+    if($tipopublicacion == "CONVOCATORIA") {
+        // Aquí coloca la sentencia SQL específica para cuando el tipo es "CONVOCATORIA"
+        $sqlConvocatoria = "INSERT INTO convocatoria (nombre, descripcion, file ) VALUES (?, ?, ?)";
+        $stmt = mysqli_prepare($conexion, $sqlConvocatoria);
+        mysqli_stmt_bind_param($stmt, 'sss', $nombre, $descripcion, $nombreimagen);
+        $success = mysqli_stmt_execute($stmt);
+    } 
+    if($tipopublicacion == "GALERIA") {
+        // Aquí coloca la sentencia SQL específica para cuando el tipo es "CONVOCATORIA"
+        $sqlConvocatoria = "INSERT INTO galeria (titulo, descripcion, direcciones) VALUES (?, ?, ?)";
+        $stmt = mysqli_prepare($conexion, $sqlConvocatoria);
+        mysqli_stmt_bind_param($stmt, 'sss', $nombre, $descripcion, $nombreimagen);
+        $success = mysqli_stmt_execute($stmt);
+    } else {
+        $sql = "INSERT INTO publicaciones (nombre, descripcion, imagen, tipo, idusuarios) VALUES (?, ?, ?, ?, 1)";
+        $stmt = mysqli_prepare($conexion, $sql);
+        mysqli_stmt_bind_param($stmt, 'ssss', $nombre, $descripcion, $nombreimagen, $tipopublicacion);
+        $success = mysqli_stmt_execute($stmt);
+    }
+ 
+    if($success) {
         echo '
-        <script type="text/javascript">
+<script type="text/javascript">
         alert("Se ha agregado un nuevo producto");
         window.location="indexadministrador.php";
-        </script>';
+</script>';
     } else {
         echo "Error: " . mysqli_error($conexion);
     }

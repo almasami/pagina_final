@@ -54,17 +54,17 @@
 <body>
     <div class="container mt-5">
         <h1 class="text-center">ADMINISTRADOR DE PUBLICACIONES</h1>
-        <a href="Formularioinsertar.php" class="btn btn-primary mb-3">Agregar Comisariado </a>
-        <a href="tabla_convocatoria.php" class="btn btn-primary mb-3">Tabla Convocatoria</a>
+        <a href="Formularioinsertar.php" class="btn btn-primary mb-3">Agregar Contenido </a>
+        <a href="indexadministrador.php" class="btn btn-primary mb-3">Tabla publicaciones</a>
         <a href="tabla_galeria.php" class="btn btn-primary mb-3">Tabla Galería</a>
         <table class="table">
             <thead>
                 <tr>
-                    <th>Id publicaciones</th>
-                    <th>Nombre</th>
-                    <th>Descripcion</th>
-                    <th>Tipo</th>
-                    <th>Imagen</th>
+                    <th>Id Galería</th>
+                    <th>Titulo</th>
+                    <th>Descripciones</th>
+                    <th>Direcciones</th>
+                    
                     <th>Acciones</th>
                 </tr>
             </thead>
@@ -75,19 +75,18 @@
 
                 function muestraTable(){ 
                     include "php/conexion.php";
-                    $sentencia = "select * from publicaciones";
+                    $sentencia = "select * from galeria";
                     $resultado = $conexion->query($sentencia) or die (mysqli_error($conexion));
                     while ($fila = $resultado->fetch_assoc()) {
                         echo "<tr>";
-                        echo "<td>" . $fila['idpublicaciones'] . "</td>";
-                        echo "<td>" . $fila['nombre'] . "</td>";
+                        echo "<td>" . $fila['idgaleria'] . "</td>";
+                        echo "<td>" . $fila['titulo'] . "</td>";
                         echo "<td>" . $fila['descripcion'] . "</td>";
-                        echo "<td>" . $fila['tipo'] . "</td>";
-                        echo "<td><img src='" . $fila['imagen'] . "' width='100'></td>";
+                        echo "<td>" . $fila['direcciones'] . "</td>";
+                       
                         echo "<td>
-                                <a href='modificar_publicaciones.php?idpublicaciones=" . $fila['idpublicaciones'] . "' class='btn btn-modify'>Modificar</a>
-                                <a href='eliminar_publicaciones.php?idpublicaciones=" . $fila['idpublicaciones'] . "' class='btn btn-delete'>Eliminar</a>
-                              </td>";
+                        <a href='gestionar_galeria.php?idgaleria=". $fila['idgaleria']."&accion=modificar' class='btn btn-modify'>Modificar</a>
+                           <a href='gestionar_galeria.php?idgaleria=". $fila['idgaleria']."&accion=eliminar' class='btn btn-delete'>Eliminar</a></td>";
                         echo "</tr>";
                     }
                 }
