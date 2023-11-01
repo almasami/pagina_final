@@ -84,17 +84,17 @@ if(isset($_POST['txtnombre'])) {
             <label for="sel1">Seleccione el tipo de publicación:</label>
             <select class="form-control" id="sel1" name="txttipo">
                 
-            <option value="CENTENARIO">CENTENARIO</option>
-                <option value="COMISARIADO">COMISARIADO</option>
                 <option value="AGRICULTURA">AGRICULTURA</option>
-                <option value="GANADERIA">GANADERÍA</option>
                 <option value="CELEBRACION">CELEBRACIÓN</option>
-                <option value="DOTACIONES" >DOTACIONES</option>
-                <option value="EJIDATARIOS">EJIDATARIOS</option>
+                <option value="CENTENARIO">CENTENARIO</option>
+                <option value="COMISARIADO">COMISARIADO</option>
                 <option value="CONVOCATORIA">CONVOCATORIA</option>
+                <option value="DOTACIONES">DOTACIONES</option>
+                <option value="EJIDATARIOS" >EJIDATARIOS</option>
                 <option value="EJIDO">EJIDO</option>
                 <option value="ENCUENTRANOS">ENCUÉNTRANOS</option>
                 <option value="GALERIA">GALERÍA</option>
+                <option value="GANADERIA">GANADERÍA</option>
                 <option value="PRESAS">PRESAS</option>
                 <option value="PRODUCCIONAGRICOLA" >PRODUCCIÓN AGRÍCOLA</option>
                 <option value="PRODUCCIONGANADERA">PRODUCCIÓN GANADERA</option>
