@@ -56,15 +56,17 @@
         <h1 class="text-center">ADMINISTRADOR DE PUBLICACIONES</h1>
         <a href="Formularioinsertar.php" class="btn btn-primary mb-3">Agregar Contenido </a>
         <a href="indexadministrador.php" class="btn btn-primary mb-3">Tabla publicaciones</a>
-        <a href="tabla_galeria.php" class="btn btn-primary mb-3">Tabla Convocatoria</a>
+        <a href="tabla_comisariado.php" class="btn btn-primary mb-3">Tabla Comisariado</a>
         <table class="table">
             <thead>
                 <tr>
-                    <th>Id Convocatoria</th>
-                    <th>Nombre</th>
-                    <th>Descripcion</th>
-                    <th>Archivo</th>
-                    
+                    <th>Id Comisariado</th>
+                    <th>Presidente</th>
+                    <th>Secretario</th>
+                    <th>Tesorero</th>
+                    <th>Vigilancia</th>
+                    <th>Inicio</th>
+                    <th>Fin</th>
                     <th>Acciones</th>
                 </tr>
             </thead>
@@ -75,18 +77,21 @@
 
                 function muestraTable(){ 
                     include "php/conexion.php";
-                    $sentencia = "select * from convocatoria";
+                    $sentencia = "select * from comisariado";
                     $resultado = $conexion->query($sentencia) or die (mysqli_error($conexion));
                     while ($fila = $resultado->fetch_assoc()) {
                         echo "<tr>";
-                        echo "<td>" . $fila['idconvocatoria'] . "</td>";
-                        echo "<td>" . $fila['nombre'] . "</td>";
-                        echo "<td>" . $fila['descripcion'] . "</td>";
-                        echo "<td>" . $fila['file'] . "</td>";
+                        echo "<td>" . $fila['idcomisariado'] . "</td>";
+                        echo "<td>" . $fila['presidente'] . "</td>";
+                        echo "<td>" . $fila['secretario'] . "</td>";
+                        echo "<td>" . $fila['tesorero'] . "</td>";
+                        echo "<td>" . $fila['vigilancia'] . "</td>";
+                        echo "<td>" . $fila['inicio'] . "</td>";
+                        echo "<td>" . $fila['fin'] . "</td>";
                        
                         echo "<td>
-                        <a href='gestionar_convocatoria.php?idconvocatoria=". $fila['idconvocatoria']."&accion=modificar' class='btn btn-modify'>Modificar</a>
-                           <a href='gestionar_convocatoria.php?idconvocatoria=". $fila['idconvocatoria']."&accion=eliminar' class='btn btn-delete'>Eliminar</a></td>";
+                        <a href='gestionar_comisariado.php?idcomisariado=". $fila['idcomisariado']."&accion=modificar' class='btn btn-modify'>Modificar</a>
+                           <a href='gestionar_comisariado.php?idcomisariado=". $fila['idcomisariado']."&accion=eliminar' class='btn btn-delete'>Eliminar</a></td>";
                         echo "</tr>";
                     }
                 }
