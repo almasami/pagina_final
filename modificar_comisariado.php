@@ -50,15 +50,15 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
 
  
     // Actualizar la publicación
-    $sentencia = "UPDATE comisariado SET presidente = ?, secretario = ?,   
-    $presidente = $fila['presidente'];
+    $sentencia = "UPDATE comisariado SET presidente = ?, secretario = ?, tesorero = ?, vigilancia = ?, inicio = ?, fin =? WHERE idcomisariado =?";   
+        $presidente = $fila['presidente'];
         $secretario = $fila['secretario'];
         $tesorero = $fila['tesorero'];
         $vigilancia = $fila['vigilancia'];
         $inicio = $fila['inicio'];
-        $fin = $fila['fin'];direcciones = ? WHERE idgaleria = ?";
+        $fin = $fila['fin'];
     $stmt = mysqli_prepare($conexion, $sentencia);
-    mysqli_stmt_bind_param($stmt, "sssi", $titulo, $descripcion, $direcciones, $id);
+    mysqli_stmt_bind_param($stmt, "sssi", $presidente, $secretario, $tesorero, $vigilancia, $inicio, $fin, $id);
     if(mysqli_stmt_execute($stmt)) {
         echo "<script>alert('Publicación modificada con éxito'); window.location.href='indexadministrador.php';</script>";
     } else {
@@ -89,19 +89,39 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
 <body>
 <div class="container">
 <h1>Modificar Publicación</h1>
-<form method="POST" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]) . "?idgaleria=" . $id; ?>">
+<form method="POST" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]) . "?idcomisariado=" . $id; ?>">
 <div class="form-group">
-<label for="titulo">Título:</label>
-<input type="text" class="form-control" id="titulo" name="titulo" required value="<?php echo $titulo; ?>">
+<label for="presidente">Presidente:</label>
+<input type="text" class="form-control" id="presidente" name="presidente" required value="<?php echo $presidente; ?>">
 </div>
 <div class="form-group">
-<label for="descripcion">Descripción:</label>
-<textarea class="form-control" id="descripcion" name="descripcion" required><?php echo $descripcion; ?></textarea>
+<label for="secretario">Secretario:</label>
+<textarea class="form-control" id="secretario" name="secretario" required><?php echo $secretario; ?></textarea>
 </div>
 <div class="form-group">
-<label for="direcciones">Direcciones:</label>
-<input type="text" class="form-control" id="direcciones" name="direcciones" required value="<?php echo $direcciones; ?>">
+<label for="tesorero">Tesorero:</label>
+<input type="text" class="form-control" id="tesorero" name="tesorero" required value="<?php echo $tesorero; ?>">
 </div>
+<div class="form-group">
+<label for="vigilancia">Vigilancia:</label>
+<input type="text" class="form-control" id="vigilancia" name="vigilancia" required value="<?php echo $vigilancia; ?>">
+</div>
+<div class="form-group">
+<label for="inicio">Inicio:</label>
+<input type="text" class="form-control" id="inicio" name="inicio" required value="<?php echo $inicio; ?>">
+</div>
+<div class="form-group">
+<label for="fin">Fin:</label>
+<input type="text" class="form-control" id="fin" name="fin" required value="<?php echo $fin; ?>">
+</div>
+
+
+
+
+
+
+
+
 <button type="submit" class="btn btn-primary">Modificar Publicación</button>
 </form>
 </div>
