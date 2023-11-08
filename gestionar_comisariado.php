@@ -8,7 +8,7 @@ if(isset($_GET['idcomisariado']) && isset($_GET['accion'])) {
  
     if($accion == "eliminar") {
         // Lógica para eliminar la publicación
-        $sentencia = "DELETE FROM galeria WHERE idcomisariado = ?";
+        $sentencia = "DELETE FROM comisariado WHERE idcomisariado = ?";
         $stmt = mysqli_prepare($conexion, $sentencia);
         mysqli_stmt_bind_param($stmt, "i", $id);
         mysqli_stmt_execute($stmt);

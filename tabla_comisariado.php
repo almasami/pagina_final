@@ -52,6 +52,8 @@
     </style>
 </head>
 <body>
+<?php 
+                  include("menu.php"); ?>
     <div class="container mt-5">
         <h1 class="text-center">ADMINISTRADOR DE PUBLICACIONES</h1>
         <a href="Formularioinsertar.php" class="btn btn-primary mb-3">Agregar Contenido </a>
@@ -82,12 +84,12 @@
                     while ($fila = $resultado->fetch_assoc()) {
                         echo "<tr>";
                         echo "<td>" . $fila['idcomisariado'] . "</td>";
-                        echo "<td>" . $fila['presidente'] . "</td>";
-                        echo "<td>" . $fila['secretario'] . "</td>";
-                        echo "<td>" . $fila['tesorero'] . "</td>";
-                        echo "<td>" . $fila['vigilancia'] . "</td>";
-                        echo "<td>" . $fila['inicio'] . "</td>";
-                        echo "<td>" . $fila['fin'] . "</td>";
+                        echo "<td>" . $fila['Presidente'] . "</td>";
+                        echo "<td>" . $fila['Secretario'] . "</td>";
+                        echo "<td>" . $fila['Tesorero'] . "</td>";
+                        echo "<td>" . $fila['Vigilancia'] . "</td>";
+                        echo "<td>" . $fila['Inicio'] . "</td>";
+                        echo "<td>" . $fila['Fin'] . "</td>";
                        
                         echo "<td>
                         <a href='gestionar_comisariado.php?idcomisariado=". $fila['idcomisariado']."&accion=modificar' class='btn btn-modify'>Modificar</a>

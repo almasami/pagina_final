@@ -52,11 +52,15 @@
     </style>
 </head>
 <body>
+<?php 
+                  include("menu.php"); ?> 
     <div class="container mt-5">
         <h1 class="text-center">ADMINISTRADOR DE PUBLICACIONES</h1>
-        <a href="Formularioinsertar.php" class="btn btn-primary mb-3">Agregar Comisariado </a>
+        <a href="Formularioinsertar.php" class="btn btn-primary mb-3">Agregar  </a>
         <a href="tabla_convocatoria.php" class="btn btn-primary mb-3">Tabla Convocatoria</a>
+        
         <a href="tabla_galeria.php" class="btn btn-primary mb-3">Tabla Galería</a>
+        <a href="tabla_comisariado.php" class="btn btn-primary mb-3">Tabla Comisariado</a>
         <table class="table">
             <thead>
                 <tr>

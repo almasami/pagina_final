@@ -129,41 +129,13 @@
   <li>
 	<div class="logo"><a href="indexprueba.php" class="nav-bar-logo"><img src="imagenes\hoja byn (2).png" ></a></div>
 	</li>	
-	<li><a href="#">Ejido</a>
-			<ul>
-			<li><a href="mapa.php">Encuéntranos</a></li>
-				<li><a href="galeria.php">Galería</a></li>
-				
-			</ul>
+	<li><a href="indexadministrador.php">Publicaciones</a>
+			
 		</li>
-		<li class= "first-element"><a href="centenario.php" >Centenario</a>
-			<ul>
-				<li><a href="celebracion.php">Celebración</a></li>
-				<li><a href="dotaciones.php">Dotaciones</a></li>
-				<li><a href="ejidatarios.php">Ejidatarios</a></li>
-			</ul>
-		</li>
-		<li><a href="comisariado.php">Comisariado</a>
-			<ul>
-				<li><a href="convocatoria.php">Convocatoria</a></li>
-				
-			</ul>
-		</li>
-		<li><a href="agricultura.php">Agricultura</a>
-			<ul>
-				<li><a href="presas.php">Presas</a></li>
-				<li><a href="produccion_riego.php">Producción agrícola</a></li>
-				<li><a href="riego.php">Riego</a></li>
-				<li><a href="temporal.php">Temporal</a></li>
-			</ul>
-		</li>
-		<li><a href="ganaderia.php">Ganadería</a>
-			<ul>
-			<li><a href="produccion_ganadera">Producción ganadera</a></li>
-				<li><a href="uso_comun.php">Uso Común</a></li>
-				
-			</ul>
-		</li>
+		<li class= "first-element"><a href="tabla_comisariado.php" >Tabla Comisariado</a>
+		<li class= "first-element"><a href="tabla_convocatoria.php" >Tabla Convocatoria</a>	
+		<li class= "first-element"><a href="tabla_galeria.php" >Tabla Galería</a>		
+		
 		
 		
 	
@@ -182,8 +154,8 @@
         <div class="mask" style="background-color: rgba(0, 0, 0, 0.3); position: absolute; bottom: 0; left: 0; width: 100%; height: 100%;">
           <div class="d-flex justify-content-center align-items-center h-100">
             <div class="text-white">
-              <h1 class="mb-3">Ejido Juan Mata Ortiz</h1>
-              <h4 class="mb-3">Resolución Presidencial</h4>
+              <h4 class="mb-3">Administradora Bienvenida</h4>
+              
               <h4 class="mb-3">25 octubre 1923</h4>
             </div>
           </div>

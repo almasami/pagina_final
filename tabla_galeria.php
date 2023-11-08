@@ -52,6 +52,8 @@
     </style>
 </head>
 <body>
+<?php 
+                  include("menu.php"); ?>
     <div class="container mt-5">
         <h1 class="text-center">ADMINISTRADOR DE PUBLICACIONES</h1>
         <a href="Formularioinsertar.php" class="btn btn-primary mb-3">Agregar Contenido </a>

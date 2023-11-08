@@ -23,7 +23,7 @@
   <body>
   
   <div class="site-wrap">
-    <?php include("./layouts/header.php"); ?> 
+    <?php include("menu.php"); ?> 
 
     <div class="site-section">
       <div class="container">

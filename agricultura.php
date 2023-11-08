@@ -24,20 +24,9 @@
   
   <div class="site-wrap">
     <?php include("./layouts/header.php"); ?> 
-    <div class="logo"><a href="indexprueba.php" class="nav-bar-logo"><img src="imagenes\logos\elote.png" ></a></div>
-    <div class="site-section">
-      <div class="container">
-
-        <div class="row mb-5">
-          <div class="col-md-9 order-2">
-
-           
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="row mb-5">
+    <div class=""style= "text-align: center; margin-bottom: 10px;" ><a href="indexprueba.php" ><img src="imagenes\logos\elote.png"class="img-fluid" width="20%"  ></a></div>
+    
+            <div class="row mb-3">
     <?php
     include('./php/conexion.php');
     $resultado = $conexion->query("SELECT * FROM publicaciones WHERE tipo='AGRICULTURA' ORDER BY idpublicaciones DESC LIMIT 5") or die($conexion);
