@@ -24,7 +24,7 @@
   
   <div class="site-wrap">
     <?php include("./layouts/header.php"); ?> 
-
+    <div class="logo"><a href="indexprueba.php" class="nav-bar-logo"><img src="imagenes\logos\elote.png" ></a></div>
     <div class="site-section">
       <div class="container">
 

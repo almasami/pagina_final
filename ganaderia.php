@@ -23,8 +23,9 @@
   <body>
   
   <div class="site-wrap">
-    <?php include("./layouts/header.php"); ?> 
-
+    <?php include("./layouts/header.php"); ?>
+    <div class="logo"><a href="indexprueba.php" class="nav-bar-logo"><img src="imagenes\logos\toro.png" ></a></div>
+    <div class="d-flex justify-content-center align-items-center h-100">
     <div class="site-section">
       <div class="container">
 
