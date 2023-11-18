@@ -51,12 +51,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
  
     // Actualizar la publicación
     $sentencia = "UPDATE comisariado SET Presidente = ?, Secretario = ?, Tesorero = ?, Vigilancia = ?, Inicio = ?, Fin =? WHERE idcomisariado =?";   
-        $presidente = $fila['Presidente'];
-        $secretario = $fila['Secretario'];
-        $tesorero = $fila['Tesorero'];
-        $vigilancia = $fila['Vigilancia'];
-        $inicio = $fila['Inicio'];
-        $fin = $fila['Fin'];
+      
     $stmt = mysqli_prepare($conexion, $sentencia);
     mysqli_stmt_bind_param($stmt, "ssssiii", $presidente, $secretario, $tesorero, $vigilancia, $inicio, $fin, $id);
     if(mysqli_stmt_execute($stmt)) {
