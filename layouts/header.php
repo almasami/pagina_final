@@ -126,7 +126,7 @@
 
 	<ul class="nav">
   <li>
-	<div class="logo"><a href="indexprueba.php" class="nav-bar-logo"><img src="imagenes\hoja byn (2).png" ></a></div>
+	<div class="logo"><a href="indexprueba.php" class="nav-bar-logo"><img src="imagenes\logos\hoja_byn__2_-removebg-.png" ></a></div>
 	</li>	
 	<li><a href="#">Ejido</a>
 			<ul>
