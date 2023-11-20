@@ -158,7 +158,7 @@
 		</li>
 		<li><a href="ganaderia.php">Ganadería</a>
 			<ul>
-			<li><a href="produccion_ganadera">Producción ganadera</a></li>
+			<li><a href="produccion_ganadera">Producción ganadería</a></li>
 				<li><a href="uso_comun.php">Uso Común</a></li>
 				
 			</ul>
