@@ -151,14 +151,14 @@
 		<li><a href="agricultura.php">Agricultura</a>
 			<ul>
 				<li><a href="presas.php">Presas</a></li>
-				<li><a href="produccion_riego.php">Producción agrícola</a></li>
+				<li><a href="produccion_agricola.php">Producción agrícola</a></li>
 				<li><a href="riego.php">Riego</a></li>
 				<li><a href="temporal.php">Temporal</a></li>
 			</ul>
 		</li>
 		<li><a href="ganaderia.php">Ganadería</a>
 			<ul>
-			<li><a href="produccion_ganadera">Producción ganadería</a></li>
+			<li><a href="produccion_ganaderia.php">Producción ganadería</a></li>
 				<li><a href="uso_comun.php">Uso Común</a></li>
 				
 			</ul>

@@ -60,12 +60,12 @@ if(isset($_POST['txtnombre'])) {
     <link rel="stylesheet" href="css/style.css"></head>
 <body>
 <div class="site-wrap">
-<?php include("./layouts/header.php"); ?>
+<?php include("menu.php"); ?>
 
 <div class="container mt-5">
 <div class="row justify-content-center">
 <div class="col-md-4">
-    <h1 class="tituloRegistro">Agregar publicaciones</h1>
+    <h1 class="tituloRegistro">Agregar publicaciones, GALERÍA, CONVOCATORIA</h1>
     <form class="formulario" method="POST" action="Formularioinsertar.php" enctype="multipart/form-data">
         <div class="mb-3">
             <label class="form-label">Ingrese el nombre</label>

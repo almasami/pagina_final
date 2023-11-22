@@ -130,12 +130,35 @@
 	<div class="logo"><a href="indexprueba.php" class="nav-bar-logo"><img src="imagenes\hoja byn (2).png" ></a></div>
 	</li>	
 	<li><a href="indexadministrador.php">Publicaciones</a>
-			
+	<ul>
+				<li><a href="indexadministrador.php">Ver tabla</a></li>
+
+				<li><a href="Formularioinsertar.php">Insertar Publicaciones</a></li>
+				
+			</ul></li>
 		</li>
 		<li class= "first-element"><a href="tabla_comisariado.php" >Tabla Comisariado</a>
-		<li class= "first-element"><a href="tabla_convocatoria.php" >Tabla Convocatoria</a>	
+		<ul>
+				<li><a href="tabla_comisariado.php">Ver tabla</a></li>
+
+				<li><a href="Formulario_comisariado.php">Insertar Comisariado</a></li>
+				
+			</ul></li>
+		<li class= "first-element"><a href="tabla_convocatoria.php" >Tabla Convocatoria</a>	<ul>
+				<li><a href="tabla_convocatoria.php">Ver tabla</a></li>
+
+				<li><a href="Formularioinsertar.php">Insertar Convocatoria</a></li>
+				
+			</ul></li>
 		<li class= "first-element"><a href="tabla_galeria.php" >Tabla Galería</a>		
 		
+		<ul>
+				<li><a href="tabla_galeria.php">Ver tabla</a></li>
+
+				<li><a href="Formularioinsertar.php">Insertar Galería</a></li>
+				
+			</ul></li>
+
 		
 		
 	
